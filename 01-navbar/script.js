@@ -9,7 +9,7 @@ menuBtn.addEventListener("click", () => {
 let tl = gsap.timeline();
 
 
-
+ 
 tl.from(".navbar", {
     duration: 1,
     y: -20,

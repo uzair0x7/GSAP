@@ -9,7 +9,7 @@ A clean and responsive navbar built with **HTML, CSS, JavaScript, and GSAP**. Th
 ├── index.html
 ├── styles.css
 ├── script.js
-└── README.md
+└── README.md 
 ```
 
 ## 🚀 How It Works
