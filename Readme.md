@@ -18,7 +18,7 @@ GSAP/
 │
 ├── 01-navbar/
 ├── 02-scrollTrigger/
-├── 03-hover-animation/
+├── 03-svg-animations/
 ├── 04-parallax/
 ├── ...
 ```
