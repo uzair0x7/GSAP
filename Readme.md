@@ -19,7 +19,7 @@ GSAP/
 ├── 01-navbar/
 ├── 02-scrollTrigger/
 ├── 03-svg-animations/
-├── 04-parallax/
+├── 04-cursor-animations/
 ├── ...
 ```
 
