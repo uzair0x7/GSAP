@@ -140,4 +140,9 @@ document.addEventListener("DOMContentLoaded", () => {
       ease: "power2.out",
     });
   });
+
+  const github =  document.querySelector(".github-btn")
+    github.addEventListener("click",()=>{
+        window.location.href = "https://github.com/uzair0x7/GSAP"
+    })
 });
