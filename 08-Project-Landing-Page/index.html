@@ -1,11 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WizardZ – Digital Marketing Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">Wizard<span>Z</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">use cases</a></li>
+                <li><a href="#">pricing</a></li>
+                <li><a href="#">blog</a></li>
+                <li class="nav-cta">
+                    <a href="#" class="btn-outline btn-green-sm">Get Started</a>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    Navigating the<br />
+                    digital landscape<br />
+                    for <span class="highlight">success</span>
+                </h1>
+                <p>
+                    Our digital marketing agency helps businesses grow and
+                    succeed online through a range of services including SEO,
+                    PPC, social media marketing, and content creation.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-green">Book a consultation</a>
+                    <a href="#" class="btn-outline">Learn more</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero.svg" alt="Digital marketing illustration" />
+            </div>
+        </div>
+
+        <div class="trusted">
+            <div class="container">
+                <div class="trusted-logos">
+                    <img src="assets/zoom.svg" alt="Zoom" />
+                    <img src="assets/hubspot.svg" alt="HubSpot" />
+                    <img src="assets/netflix.svg" alt="Netflix" />
+                    <img src="assets/dribble.svg" alt="Dribbble" />
+                    <img src="assets/notion.svg" alt="Notion" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <h2>Services</h2>
+                <p>
+                    At our digital marketing agency, we offer a range of
+                    services to help businesses grow and succeed online.
+                    These services include:
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card light">
+                    <div class="card-top">
+                        <div class="card-heading">
+                            <span class="hl green-bg">Search Engine</span><br />
+                            <span class="hl green-bg">Optimisation</span>
+                        </div>
+                        <div class="card-icon">
+                            <img src="assets/card1.svg" alt="SEO icon" />
+                        </div>
+                    </div>
+                    <a href="#" class="learn-more">
+                        <span class="arrow green-bg">
+                            <svg viewBox="0 0 24 24"><path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4v-2z"/></svg>
+                        </span>
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="service-card green">
+                    <div class="card-top">
+                        <div class="card-heading">
+                            <span class="hl white-bg">Pay Per Click</span><br />
+                            <span class="hl white-bg">Advertising</span>
+                        </div>
+                        <div class="card-icon">
+                            <img src="assets/card2.svg" alt="PPC icon" />
+                        </div>
+                    </div>
+                    <a href="#" class="learn-more">
+                        <span class="arrow light-bg">
+                            <svg viewBox="0 0 24 24"><path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4v-2z"/></svg>
+                        </span>
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="service-card dark">
+                    <div class="card-top">
+                        <div class="card-heading">
+                            <span class="hl white-bg">Social Media</span><br />
+                            <span class="hl white-bg">Marketing</span>
+                        </div>
+                        <div class="card-icon">
+                            <img src="assets/card3.svg" alt="Social media icon" />
+                        </div>
+                    </div>
+                    <a href="#" class="learn-more">
+                        <span class="arrow green-bg">
+                            <svg viewBox="0 0 24 24"><path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4v-2z"/></svg>
+                        </span>
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="service-card light">
+                    <div class="card-top">
+                        <div class="card-heading">
+                            <span class="hl green-bg">E-mail</span><br />
+                            <span class="hl green-bg">Marketing</span>
+                        </div>
+                        <div class="card-icon">
+                            <img src="assets/card4.svg" alt="Email marketing icon" />
+                        </div>
+                    </div>
+                    <a href="#" class="learn-more">
+                        <span class="arrow green-bg">
+                            <svg viewBox="0 0 24 24"><path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4v-2z"/></svg>
+                        </span>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-wrapper">
+                <div class="cta-content">
+                    <h2>Let's <span class="highlight">make things</span> happen</h2>
+                    <p>
+                        Contact us today to learn more about how our digital
+                        marketing services can help your business grow and
+                        succeed online.
+                    </p>
+                    <a href="#" class="btn-green">Get your free proposal</a>
+                </div>
+                <div class="cta-visual">
+                    <img src="assets/secondlast.svg" alt="Proposal illustration" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-studies">
+        <div class="container">
+            <div class="case-studies-header">
+                <h2>Case Studies</h2>
+                <p>
+                    Explore real-life examples of our proven Digital Marketing
+                    success through our case studies.
+                </p>
+            </div>
+
+            <div class="case-grid">
+                <div class="case-item">
+                    <p>
+                        For a local restaurant, we implemented a targeted PPC
+                        campaign that resulted in a 50% increase in website
+                        traffic and a 25% increase in sales.
+                    </p>
+                    <a href="#" class="learn-more">
+                        Learn More <span class="arrow">→</span>
+                    </a>
+                </div>
+                <div class="case-divider"></div>
+                <div class="case-item">
+                    <p>
+                        For a 100% software company, we developed an AI-powered
+                        platform that increased website traffic by 20% and
+                        generated 20% more leads.
+                    </p>
+                    <a href="#" class="learn-more">
+                        Learn More <span class="arrow">→</span>
+                    </a>
+                </div>
+                <div class="case-divider"></div>
+                <div class="case-item">
+                    <p>
+                        For a national retail chain, we created a social media
+                        marketing campaign that increased website traffic by
+                        20% and generated 20% more leads.
+                    </p>
+                    <a href="#" class="learn-more">
+                        Learn More <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <div class="logo">Wizard<span>Z</span></div>
+                <span class="copy">© 2026 · All rights reserved</span>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="btn-green">Request a quote</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
+<script src="./script.js"></script>
 </html>
