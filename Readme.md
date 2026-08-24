@@ -156,7 +156,7 @@ GSAP/
 ├── ...
 │
 └── README.md
-```text
+```
 
 React-based projects follow their normal React structure:
 
