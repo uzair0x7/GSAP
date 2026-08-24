@@ -111,7 +111,7 @@ This repository contains small experiments as well as complete animated interfac
 ## ✦ Repository Structure
 
 Every experiment is kept in its own folder so that individual animations remain easy to understand, run, and reuse.
-
+```text
 GSAP/
 │
 ├── 01-navbar/
@@ -156,6 +156,7 @@ GSAP/
 ├── ...
 │
 └── README.md
+```text
 
 React-based projects follow their normal React structure:
 
